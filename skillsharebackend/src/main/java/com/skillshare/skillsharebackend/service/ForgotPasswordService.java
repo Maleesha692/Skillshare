@@ -5,8 +5,7 @@ import com.skillshare.skillsharebackend.model.VerificationCode;
 import com.skillshare.skillsharebackend.repository.UserRepository;
 import com.skillshare.skillsharebackend.repository.VerificationCodeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
+import org.springframework.web.bind.annotation.*;
 import java.time.LocalDateTime;
 import java.util.Optional;
 
