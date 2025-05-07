@@ -1,11 +1,11 @@
 package com.skillshare.skillsharebackend.service;
-
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 import com.skillshare.skillsharebackend.model.Notification;
 import com.skillshare.skillsharebackend.model.Post;
 import com.skillshare.skillsharebackend.model.User;
 import com.skillshare.skillsharebackend.repository.NotificationRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+
 
 @Service
 public class NotificationService {
