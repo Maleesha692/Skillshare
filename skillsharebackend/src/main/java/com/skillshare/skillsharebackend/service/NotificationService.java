@@ -5,7 +5,7 @@ import com.skillshare.skillsharebackend.model.Post;
 import com.skillshare.skillsharebackend.model.User;
 import com.skillshare.skillsharebackend.repository.NotificationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.*;
 
 @Service
 public class NotificationService {
