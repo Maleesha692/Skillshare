@@ -1,5 +1,6 @@
 package com.skillshare.skillsharebackend.service;
-
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 import com.skillshare.skillsharebackend.model.Comment;
 import com.skillshare.skillsharebackend.repository.CommentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
