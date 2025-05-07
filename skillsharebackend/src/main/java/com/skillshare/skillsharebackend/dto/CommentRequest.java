@@ -5,7 +5,7 @@ public class CommentRequest {
     private Long userId;
     private String content;
 
-    private Long commentId;
+
 
 
     // Getters and Setters
