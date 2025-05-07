@@ -7,7 +7,7 @@ import com.skillshare.skillsharebackend.model.User;
 import com.skillshare.skillsharebackend.repository.FollowRepository;
 import com.skillshare.skillsharebackend.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.stream.Collectors;
